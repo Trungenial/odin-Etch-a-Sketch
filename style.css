@@ -1,0 +1,39 @@
+/* || RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* || VARIABLES */
+
+/* || GENERAL STYLES  */
+
+/* || UTILITY CLASSES */
+.red {
+  background-color: red;
+}
+
+/* || BLOCKS */
+.change-pixel {
+  display: block;
+  margin: 20px auto 20px auto;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  height: 512px;
+  width: 512px;
+  border: 2px solid black;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  opacity: 1;
+}
+
+.item {
+  border: 1px solid black;
+}
+/* || ELEMENTS */
+
+/* || MODIFIERS*/
